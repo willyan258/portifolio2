@@ -6,25 +6,27 @@
 }
 
 .main-container{
-    background-color: aqua;
-    height: 400vh;
+
+    
 }
 
 .cabecalho{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-image: url(../img/wave2.svg);
+    background-repeat: repeat-x;
+    width: 100%;
+
 }
 
 .media-links{
-    width: 40%;
-    background-color: black;
-    
+    width: 40vw;
+       
 }
 
 .media-links ul{
     height: 10vh;
-    color: white;
     width: 99%;
     display: flex;
     flex-direction: row;
@@ -35,8 +37,6 @@
 }
 .navigation ul{
     height: 10vh;
-    color: white;
-    width: 30%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -47,57 +47,91 @@
 
 .media-links ul li, .navigation ul li{
     border-radius: 20px;
-    background-color: blue;
     padding: 10px;
 }
 
 .navigation{
-    background-color: red;
-    width: 60%;
+    
+    width: 60vw;
 }
 
 .apresentation-home-page{
     width: 100%;
     height: 100vh;
-    background-color: bisque;
+   
 }
 
 .projects{
     width: 100%;
     height: 100vh;
-    background-color: orangered;
+     
+     
+}
+
+.title-sessions{
+    display: block;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.cards-project{
+    width: 100%;
+    height: 70vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    
-}
-
-.cards-projects{
-    width: 100%;
-    height: 70vh;
-    display: flex;
-    gap: 35px;
+    justify-content: space-around;
 }
 
 .project-card{
-    height: 10vh;
-    width: 100%;
+    height: 50vh;
+    width: 20%;
     background-color: blue;
     color: white;
-    padding: 50px;
+    padding: 30px;
+    border-radius: 15px;
 }
 
 .about{
     width: 100%;
     height: 100vh;
-    background-color: green;
+    
 }
 
 .contact{
     width: 100%;
-    height: 100vh;
-    background-color: violet;
+    height: 60vh;
+    
+}
+
+.ways-of-contact{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.media-links-contact{
+    width: 20vw;
+    margin: 0 auto;
+}
+
+.media-links-contact ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.media-links-contact ul li{
+    padding: 10px;
+}
+
+.email{
+    
+    font-size: 32px;
+    margin: 0 auto;
 }
 
 
