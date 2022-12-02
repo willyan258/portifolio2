@@ -50,6 +50,8 @@
     
 }
 
+
+
 .media-links ul li, .navigation ul li{
     border-radius: 20px;
     padding: 10px;
@@ -90,7 +92,8 @@
 .apresentation-text{
     color:#00A872;
     font-family: var(--second-font);
-    font-weight: 300;
+    font-weight: 500;
+    font-size: x-large;
 }
 
 .projects{
@@ -108,7 +111,6 @@
 }
 
 .text-inside{
-    display: block;
     text-align: center;
     padding: 15px;
     font-family: var(--second-font);
@@ -126,13 +128,11 @@
 }
 
 .project-card{
-    height: 50vh;
-    width: 20%;
-    background-image: url(../img/background-card.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    height: 500px;
+    width: 500px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.1) 10%, #4c83ad 80%), url(../img/background-card.png);
+    background-size: cover;
     color: white;
-    padding: 30px;
     border-radius: 20px;
     font-family: var(--second-font);
     text-align: center;
@@ -141,44 +141,76 @@
 
 .about{
     width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    
+    height: 100vh;   
 }
 
 .about-content{
-    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
 }
 
+
+
 .about-image-content{
-    width: 30vw;
-    height: 30vh;
+    width: 20vw;
+    height: 60vh; 
+   
+        
 }
 
 .about-image-content img{
     width: 100%;
     height: 100%;
+    border-radius: 15px;
+    box-shadow: 15px;
 }
 
 .contact{
     width: 100%;
-    height: 60vh;
+    height: 100vh;
     
 }
 
+
 .ways-of-contact{
-    
+    height: 65vh;
+    width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
     flex-direction: column;
 }
 
+.text2-contact{
+    height: 20vh;
+    padding: 15px;
+}
+
+
 .media-links-contact{
-    width: 20vw;
+    width: 30vw;
     margin: 0 auto;
+    padding: 15px 0px;
+}
+
+a:visited{
+   text-decoration-color: #ffff;
+}
+
+a:hover{
+    color: #ffff;
+}
+
+a:link{
+    color: #ffff;
+}
+
+a{
+    text-decoration: none;
 }
 
 .media-links-contact ul {
@@ -191,11 +223,4 @@
 .media-links-contact ul li{
     padding: 10px;
 }
-
-.email{
-    
-    font-size: 32px;
-    margin: 0 auto;
-}
-
 
