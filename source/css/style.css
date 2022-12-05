@@ -7,6 +7,7 @@
 
 :root{
     --main-gradient: linear-gradient(to left top, #7000ff, #0051ff, #006eff, #0081ed, #008fd4, #3889c0, #4c83ad, #5a7d9a, #516887, #495372, #413e5d, #382b47);
+    --second-gradient: linear-gradient(to right top, #006eff, #0079f8, #0082ee, #0089e2, #008fd4);
     --main-font: 'Inter', sans-serif;
     --second-font: 'Roboto', sans-serif;
 }
@@ -92,7 +93,7 @@
 .apresentation-text{
     color:#00A872;
     font-family: var(--second-font);
-    font-weight: 500;
+    font-weight: 900;
     font-size: x-large;
 }
 
@@ -114,6 +115,7 @@
     text-align: center;
     padding: 15px;
     font-family: var(--second-font);
+    font-weight: 500;
 }
 
 
@@ -132,6 +134,7 @@
     width: 500px;
     background-image: linear-gradient(to bottom, rgba(0,0,0,.1) 10%, #4c83ad 80%), url(../img/background-card.png);
     background-size: cover;
+    box-shadow: 10px 10px 5px #006eff;
     color: white;
     border-radius: 20px;
     font-family: var(--second-font);
@@ -163,9 +166,9 @@
 }
 
 .about-image-content img{
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
+    width: 90%;
+    height: 75%;
+    border-radius: 50%;
     box-shadow: 15px;
 }
 
