@@ -7,7 +7,7 @@
 
 :root{
     --main-gradient: linear-gradient(to left top, #7000ff, #0051ff, #006eff, #0081ed, #008fd4, #3889c0, #4c83ad, #5a7d9a, #516887, #495372, #413e5d, #382b47);
-    --second-gradient: linear-gradient(to right top, #006eff, #0079f8, #0082ee, #0089e2, #008fd4);
+    --main-box-shadow: 10px 10px 5px #006eff;
     --main-font: 'Inter', sans-serif;
     --second-font: 'Roboto', sans-serif;
 }
@@ -84,6 +84,8 @@
 .apresentation-image-content img{
     width: 100%;
     height: 100%;
+    box-shadow: 10px 10px 5px #006eff;
+    
 }
 
 .title-apresentation{
@@ -169,7 +171,7 @@
     width: 90%;
     height: 75%;
     border-radius: 50%;
-    box-shadow: 15px;
+    box-shadow: 10px 10px 5px #006eff;
 }
 
 .contact{
